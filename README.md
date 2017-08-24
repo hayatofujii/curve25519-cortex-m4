@@ -11,7 +11,8 @@ gcc _mul_coc_umaal_rdc.S -o _mul_coc_umaal_rdc.o
 Include the `_fe_mul_coc_umaal_rdc.h` header in your code, link the ```_mul_coc_umaal_rdc.o``` object and call
 
 ```
-_fe_mul_coc_umaal_rdc(fe_t result, fe_t operand_a, fe_t operand_b);```
+_fe_mul_coc_umaal_rdc(fe_t result, fe_t operand_a, fe_t operand_b);
+```
 
 
 Copyright 2017 LG Electronics and University of Campinas.
