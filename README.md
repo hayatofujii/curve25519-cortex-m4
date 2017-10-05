@@ -12,7 +12,10 @@ gcc _mul_coc_umaal_rdc.S -o _mul_coc_umaal_rdc.o
 Include the `_fe_mul_coc_umaal_rdc.h` header in your code, link the ```_mul_coc_umaal_rdc.o``` object and call
 
 ```
-_fe_mul_coc_umaal_rdc(fe_t result, fe_t operand_a, fe_t operand_b);
+fe_t operand_a, operand_b;
+fe_t result;
+
+_fe_mul_coc_umaal_rdc(result, operand_a, operand_b);
 ```
 
 Performance
